@@ -115,7 +115,7 @@ export class VirtualScroll implements ComponentInterface {
   @Prop() footerHeight?: FooterHeightFn;
 
   /**
-   * An optional parameter that prevents content-stacking.
+   * An optional parameter that prevents content-stacking and forces items to have a minimum height.
    */
   @Prop() minimumItemHeight?: number;
 
